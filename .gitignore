@@ -25,3 +25,94 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# Built application files
+*.apk
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+*/build/
+
+# Local configuration file
+local.properties
+
+# Gradle files
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android Navigation Safe Args
+.navigation/
+
+# Captures
+captures/
+
+# External native build folder
+.externalNativeBuild/
+.cxx/
+
+# Google Services
+google-services.json
+
+# Firebase Crashlytics
+com_crashlytics_export_strings.xml
+
+# Kotlin
+.kotlin/
+
+# KSP
+.ksp/
+
+# Generated protobuf files
+generated/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Mac
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+
+# Android Studio Profiling
+profiling/
+
+# Secrets and environment files
+.env
+.env.*
+
+# TensorFlow Lite models (optional)
+# Uncomment if models are large and managed separately
+# *.tflite
