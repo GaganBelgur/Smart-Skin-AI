@@ -29,8 +29,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     buildFeatures {
         compose = true
@@ -55,7 +55,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
 
     implementation(libs.tensorflow.lite)
-    implementation(libs.tensorflow.lite.support)
+    //implementation(libs.tensorflow.lite.support)
 
     implementation(libs.camera.camera2)
     implementation(libs.camera.lifecycle)
@@ -65,4 +65,5 @@ dependencies {
     implementation(libs.tensorflow.lite.gpu)
 
     implementation(libs.lifecycle.runtime.compose)
+    implementation(libs.accompanist.permissions)
 }
